@@ -3,8 +3,7 @@ title: FitSignal
 emoji: 🎯
 colorFrom: indigo
 colorTo: red
-sdk: gradio
-sdk_version: "4.44.0"
+sdk: streamlit
 python_version: "3.11"
 app_file: app.py
 pinned: false
@@ -17,13 +16,16 @@ challenge. Upload a small candidate sample (`.jsonl` or `.json`, ≤100 candidat
 and the app ranks them end-to-end on CPU for the **Senior AI Engineer — Founding
 Team** role.
 
+Built with **Streamlit** (not Gradio) to keep the hosted runtime dependency-light
+and avoid version conflicts.
+
 ## Deploy to HuggingFace Spaces
 
-1. Create a new **Gradio** Space (free CPU tier is fine).
+1. Create a new **Streamlit** Space (free CPU tier is fine).
 2. Upload these **5 files** into the Space root:
    - `app.py`            (this folder)
    - `requirements.txt`  (this folder)
-   - `README.md`         (this folder — its YAML header tells HF it's a Gradio app)
+   - `README.md`         (this folder — its YAML header configures the Space)
    - `common.py`         (from the repo root)
    - `embed.py`          (from the repo root)
 3. Optionally also upload `sample_candidates.jsonl` (this folder) so reviewers
