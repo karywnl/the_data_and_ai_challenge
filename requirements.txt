@@ -69,14 +69,14 @@ networkx==3.6.1 ; python_full_version >= '3.11'
     # via torch
 numpy==2.2.6 ; python_full_version < '3.11'
     # via
-    #   redrob-ranker
+    #   fitsignal
     #   scikit-learn
     #   scipy
     #   sentence-transformers
     #   transformers
 numpy==2.4.6 ; python_full_version >= '3.11'
     # via
-    #   redrob-ranker
+    #   fitsignal
     #   scikit-learn
     #   scipy
     #   sentence-transformers
@@ -151,7 +151,7 @@ scipy==1.17.1 ; python_full_version >= '3.11'
     #   scikit-learn
     #   sentence-transformers
 sentence-transformers==5.5.1
-    # via redrob-ranker
+    # via fitsignal
 setuptools==81.0.0
     # via torch
 shellingham==1.5.4

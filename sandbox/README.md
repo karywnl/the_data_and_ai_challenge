@@ -1,5 +1,5 @@
 ---
-title: Redrob Ranker
+title: FitSignal
 emoji: 🎯
 colorFrom: indigo
 colorTo: red
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Redrob Ranker — sandbox
+# FitSignal — sandbox
 
 Hackathon sandbox/demo for the Redrob "Intelligent Candidate Discovery & Ranking"
 challenge. Upload a small candidate sample (`.jsonl` or `.json`, ≤100 candidates)

@@ -1,4 +1,4 @@
-# Redrob Ranker
+# FitSignal
 ### Intelligent Candidate Discovery & Ranking — India.Runs (Redrob × Hack2Skill)
 
 Team Name: Alonecoder
@@ -170,4 +170,4 @@ Stage-5 interview.
 ---
 
 # Thank You
-### Redrob Ranker — Build what next India runs on
+### FitSignal — Build what next India runs on

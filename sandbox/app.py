@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""HuggingFace Spaces sandbox for the Redrob ranker.
+"""HuggingFace Spaces sandbox for FitSignal.
 
 Upload a small JSONL/JSON candidate sample (<=100 candidates) and the app ranks
 it end-to-end on CPU, exactly like rank.py but embedding inline (no precomputed
@@ -68,7 +68,7 @@ demo = gr.Interface(
     outputs=[gr.Dataframe(headers=["rank", "candidate_id", "score", "reasoning"],
                           label="Ranking"),
              gr.File(label="Download CSV")],
-    title="Redrob Ranker — Senior AI Engineer",
+    title="FitSignal — Senior AI Engineer Candidate Ranker",
     description="Ranks candidates by reading title + career history + behavioral "
                 "signals (skills are ignored — they're noise by design). CPU-only, "
                 "no LLM calls.",

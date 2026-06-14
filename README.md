@@ -1,4 +1,4 @@
-# Redrob Ranker — Intelligent Candidate Discovery & Ranking
+# FitSignal — Intelligent Candidate Discovery & Ranking
 
 Ranks the top-100 candidates from a 100,000-candidate pool against the
 **Senior AI Engineer — Founding Team** job description, the way a great recruiter
@@ -80,7 +80,7 @@ python tools/validate_submission.py submission.csv
 ## Pitch deck
 
 ```bash
-uv run --with reportlab python deck/make_deck.py   # -> deck/redrob_ranker_deck.pdf
+uv run --with reportlab python deck/make_deck.py   # -> deck/fitsignal_deck.pdf
 ```
 
 ## Repository layout

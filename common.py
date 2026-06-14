@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared logic for the Redrob ranker: parsing, role classification, feature
+"""Shared logic for FitSignal: parsing, role classification, feature
 extraction, honeypot detection, scoring, and reasoning generation.
 
 Design principle (grounded in data exploration):

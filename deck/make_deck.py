@@ -3,7 +3,7 @@
 
 Run with reportlab available, e.g.:
     uv run --with reportlab python deck/make_deck.py
-Produces deck/redrob_ranker_deck.pdf
+Produces deck/fitsignal_deck.pdf
 """
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ from reportlab.pdfgen import canvas
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "slides.md")
-OUT = os.path.join(HERE, "redrob_ranker_deck.pdf")
+OUT = os.path.join(HERE, "fitsignal_deck.pdf")
 
 PAGE = landscape(A4)
 W, H = PAGE
@@ -104,7 +104,7 @@ def draw_slide(c, lines):
                 c.drawString(x + indent, y, ln); y -= 7.5 * mm
     c.setFillColorRGB(*GREY)
     c.setFont("Helvetica", 8)
-    c.drawRightString(W - MARGIN, 8 * mm, "Redrob Ranker — The Data & AI Challenge")
+    c.drawRightString(W - MARGIN, 8 * mm, "FitSignal — The Data & AI Challenge")
 
 
 def main():
