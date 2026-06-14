@@ -1,6 +1,5 @@
 # --- Provided dataset (large; distributed separately) ---
 data/
-candidates.jsonl
 *.jsonl
 *.jsonl.gz
 # ...but keep the small demo sample shipped with the sandbox
@@ -9,11 +8,13 @@ candidates.jsonl
 # --- Regenerable precomputed artifacts (rebuilt by precompute.py) ---
 artifacts/
 
-# --- Generated outputs / scratch ---
+# --- Generated ranking outputs (reproduced from rank.py) ---
 submission.csv
-test_submission.csv
 *_test.csv
 explore_report.json
+# Team upload copies (the repo keeps source + reproduce command, not the outputs)
+Alonecoder.csv
+Alonecoder.xlsx
 
 # --- Python / uv ---
 .venv/
@@ -29,11 +30,5 @@ Thumbs.db
 .idea/
 .vscode/
 
-# Keep Claude project guidance, ignore local machine settings
+# --- Local machine settings (keep shared Claude guidance) ---
 .claude/settings.local.json
-
-# Team upload CSV (regenerable from rank.py)
-Alonecoder.csv
-
-
-Alonecoder.xlsx
