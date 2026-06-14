@@ -1,0 +1,31 @@
+# --- Provided dataset (large; distributed separately) ---
+data/
+candidates.jsonl
+*.jsonl
+*.jsonl.gz
+
+# --- Regenerable precomputed artifacts (rebuilt by precompute.py) ---
+artifacts/
+
+# --- Generated outputs / scratch ---
+submission.csv
+test_submission.csv
+*_test.csv
+explore_report.json
+
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+.uv/
+.ruff_cache/
+.pytest_cache/
+
+# --- Editors / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Keep Claude project guidance, ignore local machine settings
+.claude/settings.local.json
