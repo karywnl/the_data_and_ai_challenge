@@ -1,3 +1,6 @@
 numpy>=1.26
 sentence-transformers>=3.0
-gradio>=4.0
+gradio==4.44.0
+# audioop was removed from the Python 3.13 stdlib; this backport keeps gradio's
+# pydub dependency importable if the Space ever runs on 3.13+.
+audioop-lts; python_version >= "3.13"
